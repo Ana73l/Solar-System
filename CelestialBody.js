@@ -47,25 +47,3 @@ function addCamToBody(lookAt,attBody,camera) {
 
 }
 
-/*this.radius = radius;
-this.texture = texture;
-this.self = new THREE.Mesh(
-  new THREE.SphereGeometry(this.radius,32,32),
-  new THREE.MeshBasicMaterial({
-    map: new THREE.TextureLoader().load(this.texture)
-  })
-);
-this.position = orbitsAround;
-this.pivot = new THREE.Object3D();
-this.pivot.position.set(orbitsAround.children[0].position.x,
-  orbitsAround.children[0].position.y,
-   orbitsAround.children[0].position.z);
-this.self.position.set(positionX,0,200);
-this.self.rotSpeed = rotSpeed;
-this.pivot.orbitSpeed = orbitSpeed;
-this.pivot.add(this.self);
-this.pivot1 = new THREE.Object3D();
-this.pivot1.position.set(positionX+10,0,200);
-this.pivot.add(this.pivot1);
-orbitsAround.add(this.pivot);
-spaceBodies.push(this.pivot);*/
